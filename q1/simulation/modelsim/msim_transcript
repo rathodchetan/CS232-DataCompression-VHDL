@@ -1,0 +1,328 @@
+# ERROR: No extended dataflow license exists
+# do DataCompression_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/chetan/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/DataCompression.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:58:48 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/DataCompression.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DataCompression
+# -- Compiling architecture datacompression of DataCompression
+# End time: 16:58:48 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:58:48 on Apr 16,2022
+# vcom -reportprogress 300 -93 -work work /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_textio
+# -- Compiling entity Testbench
+# -- Compiling architecture datacompression_vd of Testbench
+# ** Warning: /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:58:48 on Apr 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L maxv -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 16:58:48 on Apr 16,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.testbench(datacompression_vd)
+# Loading work.datacompression(datacompression)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: line_count = 1
+#    Time: 5 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 2
+#    Time: 7 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 3
+#    Time: 9 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 4
+#    Time: 11 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 5
+#    Time: 13 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 6
+#    Time: 15 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 7
+#    Time: 17 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 8
+#    Time: 19 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 9
+#    Time: 21 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 10
+#    Time: 23 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 11
+#    Time: 25 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 12
+#    Time: 27 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 13
+#    Time: 29 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 14
+#    Time: 31 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 15
+#    Time: 33 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 16
+#    Time: 35 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 17
+#    Time: 37 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 18
+#    Time: 39 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 19
+#    Time: 41 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 20
+#    Time: 43 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 21
+#    Time: 45 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 22
+#    Time: 47 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 23
+#    Time: 49 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 24
+#    Time: 51 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 25
+#    Time: 53 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 26
+#    Time: 55 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 27
+#    Time: 57 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 28
+#    Time: 59 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 29
+#    Time: 61 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 30
+#    Time: 63 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 31
+#    Time: 65 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 32
+#    Time: 67 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 33
+#    Time: 69 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 34
+#    Time: 71 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 35
+#    Time: 73 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 36
+#    Time: 75 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 37
+#    Time: 77 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 38
+#    Time: 79 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 39
+#    Time: 81 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 40
+#    Time: 83 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 41
+#    Time: 85 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 42
+#    Time: 87 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 43
+#    Time: 89 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 44
+#    Time: 91 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 45
+#    Time: 93 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 46
+#    Time: 95 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 47
+#    Time: 97 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 48
+#    Time: 99 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 49
+#    Time: 101 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 50
+#    Time: 103 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 51
+#    Time: 105 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 52
+#    Time: 107 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 53
+#    Time: 109 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 54
+#    Time: 111 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 55
+#    Time: 113 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 56
+#    Time: 115 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 57
+#    Time: 117 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 58
+#    Time: 119 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 59
+#    Time: 121 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 60
+#    Time: 123 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 61
+#    Time: 125 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 62
+#    Time: 127 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 63
+#    Time: 129 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 64
+#    Time: 131 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 65
+#    Time: 133 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 66
+#    Time: 135 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 67
+#    Time: 137 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 68
+#    Time: 139 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 69
+#    Time: 141 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 70
+#    Time: 143 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 71
+#    Time: 145 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 72
+#    Time: 147 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 73
+#    Time: 149 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 74
+#    Time: 151 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 75
+#    Time: 153 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 76
+#    Time: 155 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 77
+#    Time: 157 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 78
+#    Time: 159 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 79
+#    Time: 161 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 80
+#    Time: 163 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 81
+#    Time: 165 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 82
+#    Time: 167 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 83
+#    Time: 169 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 84
+#    Time: 171 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 85
+#    Time: 173 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 86
+#    Time: 175 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 87
+#    Time: 177 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 88
+#    Time: 179 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 89
+#    Time: 181 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 90
+#    Time: 183 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 91
+#    Time: 185 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 92
+#    Time: 187 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 93
+#    Time: 189 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 94
+#    Time: 191 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 95
+#    Time: 193 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 96
+#    Time: 195 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 97
+#    Time: 197 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 98
+#    Time: 199 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 99
+#    Time: 201 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 100
+#    Time: 203 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 101
+#    Time: 205 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 102
+#    Time: 207 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 103
+#    Time: 209 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 104
+#    Time: 211 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 105
+#    Time: 213 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 106
+#    Time: 215 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 107
+#    Time: 217 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 108
+#    Time: 219 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 109
+#    Time: 221 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 110
+#    Time: 223 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 111
+#    Time: 225 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 112
+#    Time: 227 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 113
+#    Time: 229 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 114
+#    Time: 231 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 115
+#    Time: 233 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 116
+#    Time: 235 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 117
+#    Time: 237 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 118
+#    Time: 239 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 119
+#    Time: 241 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 120
+#    Time: 243 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 121
+#    Time: 245 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 122
+#    Time: 247 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 123
+#    Time: 249 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 124
+#    Time: 251 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 125
+#    Time: 253 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 126
+#    Time: 255 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 127
+#    Time: 257 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 128
+#    Time: 259 ns  Iteration: 0  Instance: /testbench
+# ** Note: line_count = 129
+#    Time: 261 ns  Iteration: 0  Instance: /testbench
+# ** Fatal: (vsim-3341) Cannot open file "/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/input.txt"; it is already open.
+#    Time: 267 ns  Iteration: 0  Process: /testbench/line__23 File: /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd
+# Fatal error in Process line__23 at /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd line 57
+# 
+# HDL call sequence:
+# Stopped at /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd 57 Process line__23
+# 
+# End time: 17:01:12 on Apr 16,2022, Elapsed time: 0:02:24
+# Errors: 1, Warnings: 0

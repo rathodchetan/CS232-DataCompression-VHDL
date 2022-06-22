@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/simulation/modelsim
+Edatacompression
+Z1 w1646740942
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/DataCompression.vhd
+Z6 F/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/DataCompression.vhd
+l0
+L5 1
+Vo>B`l=H90O4Z2J]FBOJm@0
+!s100 W;Kb_MTXNTN5W]]MP?L^z2
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1650108528
+!i10b 1
+Z9 !s108 1650108528.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/DataCompression.vhd|
+Z11 !s107 /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/DataCompression.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Adatacompression
+R2
+R3
+R4
+DEx4 work 15 datacompression 0 22 o>B`l=H90O4Z2J]FBOJm@0
+!i122 0
+l19
+L14 121
+V6Tk>3S0Y:Jg:DR4?Bc:Pe1
+!s100 h[fTJFALEXJZgO8h5>FjZ2
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etestbench
+Z14 w1650108517
+Z15 DPx4 ieee 16 std_logic_textio 0 22 ^l:n6VFdg74Q?CKDhjD]D3
+R2
+R3
+R4
+!i122 1
+R0
+Z16 8/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd
+Z17 F/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd
+l0
+L7 1
+VYec7Kz@OJG2OI0ez`CaQ02
+!s100 SY45J>3oOR;kJFMLoae2Y1
+R7
+31
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|/home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd|
+!s107 /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd|
+!i113 1
+R12
+R13
+Adatacompression_vd
+R15
+R2
+R3
+R4
+DEx4 work 9 testbench 0 22 Yec7Kz@OJG2OI0ez`CaQ02
+!i122 1
+l20
+L10 80
+VBCo`RCcZk7h1ekMXoJ;c^2
+!s100 c8i9@J7[mVDLe6iQiFZnh0
+R7
+31
+R8
+!i10b 1
+R9
+R18
+Z19 !s107 /home/chetan/Desktop/Semester4/CS232DLDCALab/lab6/q1/Testbench.vhd|
+!i113 1
+R12
+R13
